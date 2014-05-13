@@ -1,0 +1,13 @@
+[debug] Starting sandboxed run...
+[debug] Waiting for threads to exit or System.exit to be called.
+[debug] Waiting for thread run-main to exit
+[info] Starting scala interpreter...
+[debug]   Boot classpath: /Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/classes:/Users/maurice/.sbt/boot/scala-2.10.2/lib/scala-library.jar
+[debug]   Classpath: /Users/maurice/Documents/Scala-EPL/progfun-example/target/scala-2.10/classes:/Users/maurice/.sbt/boot/scala-2.10.2/lib/scala-compiler.jar:/Users/maurice/.sbt/boot/scala-2.10.2/lib/jline.jar:/Users/maurice/.sbt/boot/scala-2.10.2/lib/jansi.jar:/Users/maurice/.sbt/boot/scala-2.10.2/lib/scala-reflect.jar
+[info] 
+[debug] 	Thread run-main exited.
+[debug] Waiting for thread AWT-Shutdown to exit
+[debug] 	Thread AWT-Shutdown exited.
+[debug] Interrupting remaining threads (should be all daemons).
+[debug] Sandboxed run complete..
+[debug] Exited with code 0

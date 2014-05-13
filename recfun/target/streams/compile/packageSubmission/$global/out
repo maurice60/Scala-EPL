@@ -1,0 +1,7 @@
+[info] Packaging /Users/maurice/Documents/Scala-EPL/recfun/target/scala-2.10/progfun-recfun_2.10-1.0.0.jar ...
+[debug] Input file mappings:
+[debug] 	common/package.scala
+[debug] 	  /Users/maurice/Documents/Scala-EPL/recfun/src/main/scala/common/package.scala
+[debug] 	recfun/Main.scala
+[debug] 	  /Users/maurice/Documents/Scala-EPL/recfun/src/main/scala/recfun/Main.scala
+[info] Done packaging.
