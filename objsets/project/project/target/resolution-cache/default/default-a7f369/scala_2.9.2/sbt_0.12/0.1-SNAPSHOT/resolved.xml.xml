@@ -4,8 +4,8 @@
 		module="default-a7f369"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140513142209"
-		e:sbtVersion="0.12" e:scalaVersion="2.9.2"
+		publication="20140516164700"
+		e:scalaVersion="2.9.2" e:sbtVersion="0.12"
 	>
 		<description>
 		default-a7f369

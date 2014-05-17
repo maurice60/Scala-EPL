@@ -138,11 +138,9 @@ class ListsSuite extends FunSuite {
     assert(max(List(3, 7, 2)) === 7)
   }
   
-  test("empty list max") {
-    intercept[NoSuchElementException] {
-    	max(List())
-    }
-  }
+  test("empty list max")(intercept[NoSuchElementException] {
+    max(List())
+  })
   
   test("single entry max") {
     assert(max(List(3)) === 3)

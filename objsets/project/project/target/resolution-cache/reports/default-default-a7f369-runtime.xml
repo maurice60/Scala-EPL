@@ -5,11 +5,11 @@
 		organisation="default"
 		module="default-a7f369"
 		revision="0.1-SNAPSHOT"
-		extra-scalaVersion="2.9.2"
 		extra-sbtVersion="0.12"
+		extra-scalaVersion="2.9.2"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20140513142209"/>
+		date="20140516164701"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

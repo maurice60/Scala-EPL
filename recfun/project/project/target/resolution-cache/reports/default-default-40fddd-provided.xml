@@ -9,7 +9,7 @@
 		extra-scalaVersion="2.9.2"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20140510113220"/>
+		date="20140516181922"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.12.4" status="release" pubdate="20130626161550" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
@@ -502,8 +502,8 @@
 			<revision name="0.12.4" status="release" pubdate="20130626161447" resolver="sbt-chain" artresolver="sbt-chain" extra-component="xsbti" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="6">
 				<metadata-artifact status="no" details="" size="1602" time="0" location="/Users/maurice/.ivy2/cache/org.scala-sbt/interface/ivy-0.12.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interface/0.12.4/ivys/ivy.xml"/>
 				<caller organisation="org.scala-sbt" name="api" conf="compile" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.12.4" extra-component="xsbti"/>
-				<caller organisation="org.scala-sbt" name="logging" conf="compile" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.12.4" extra-component="xsbti"/>
 				<caller organisation="org.scala-sbt" name="precompiled-2_10_1" conf="compile" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.12.4" extra-component="xsbti"/>
+				<caller organisation="org.scala-sbt" name="logging" conf="compile" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.12.4" extra-component="xsbti"/>
 				<caller organisation="org.scala-sbt" name="command" conf="compile" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.12.4" extra-component="xsbti"/>
 				<caller organisation="org.scala-sbt" name="precompiled-2_9_3" conf="compile" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.12.4" extra-component="xsbti"/>
 				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.12.4" extra-component="xsbti"/>

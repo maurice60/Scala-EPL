@@ -4,7 +4,7 @@
 		module="progfun-example$sbt_2.10"
 		revision="1.0.0"
 		status="integration"
-		publication="20140429162903"
+		publication="20140516163807"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
