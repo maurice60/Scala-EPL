@@ -56,7 +56,7 @@ abstract class TweetSet {
    * Question: Should we implment this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-   def union(that: TweetSet): TweetSet = ???
+   def union(that: TweetSet): TweetSet
 
   /**
    * Returns the tweet from this set which has the greatest retweet count.
@@ -67,8 +67,8 @@ abstract class TweetSet {
    * Question: Should we implment this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-  def mostRetweeted: Tweet = ???
-
+  def mostRetweeted: Tweet
+  def rtHelp(accT: Tweet): Tweet
   /**
    * Returns a list containing all tweets of this set, sorted by retweet count
    * in descending order. In other words, the head of the resulting list should
@@ -78,8 +78,7 @@ abstract class TweetSet {
    * Question: Should we implment this method here, or should it remain abstract
    * and be implemented in the subclasses?
    */
-  def descendingByRetweet: TweetList = ???
-
+  def descendingByRetweet: TweetList
 
   /**
    * The following methods are already implemented
@@ -113,6 +112,12 @@ class Empty extends TweetSet {
 
   def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = acc
 
+  def union(that: TweetSet): TweetSet = that
+
+  def mostRetweeted: Tweet = throw new java.util.NoSuchElementException
+  def rtHelp(accT: Tweet): Tweet = accT
+
+  def descendingByRetweet: TweetList = Nil
 
   /**
    * The following methods are already implemented
@@ -133,8 +138,24 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 
   def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = {
     val ts:TweetSet = if (p(elem)) acc.incl(elem) else acc
-    left.filterAcc(p, ts)
-    right.filterAcc(p, ts)
+    right.filterAcc(p, left.filterAcc(p, ts))
+  }
+
+  def union(that: TweetSet): TweetSet = {
+    val ts = if (that contains elem) that else that.incl(elem)
+    right.union(left.union(ts))
+  }
+
+  def mostRetweeted: Tweet = rtHelp(this.elem)
+
+  def rtHelp(accT: Tweet): Tweet = {
+    val newA = if (this.elem.retweets > accT.retweets) this.elem else accT
+    right.rtHelp(left.rtHelp(newA))
+  }
+
+  def descendingByRetweet: TweetList = {
+    val ret = mostRetweeted
+    new Cons(ret, remove(ret).descendingByRetweet)
   }
 
   /**

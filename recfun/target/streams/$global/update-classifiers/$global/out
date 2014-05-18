@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0 [compile]
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dcbf91a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a3670a8
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	found org.scala-lang#scala-library;2.10.2 in sbt-chain
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.2 [test->master]
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.10;1.9.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@905fa25
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6110fbe8
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;1.9.1
 [debug] 	local: revision in cache: org.scalatest#scalatest_2.10;1.9.1
 [debug] 	found org.scalatest#scalatest_2.10;1.9.1 in sbt-chain
@@ -51,7 +51,7 @@
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->master]
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-actors;2.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5abd6b6d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54d9590d
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0
 [debug] 	local: revision in cache: org.scala-lang#scala-actors;2.10.0
 [debug] 	found org.scala-lang#scala-actors;2.10.0 in sbt-chain
@@ -60,7 +60,7 @@
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->master]
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a66c9cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b35ed2f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.0
 [debug] 	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain
@@ -69,7 +69,7 @@
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->master]
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->default(compile)]
 [info] Resolving junit#junit;4.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ed9a248
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b7e6de5
 [debug] sbt-chain: module revision found in cache: junit#junit;4.10
 [debug] 	local: revision in cache: junit#junit;4.10
 [debug] 	found junit#junit;4.10 in sbt-chain
@@ -78,7 +78,7 @@
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->master]
 [debug] == resolving dependencies progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42871e10
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a865f63
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1
 [debug] 	local: revision in cache: org.hamcrest#hamcrest-core;1.1
 [debug] 	found org.hamcrest#hamcrest-core;1.1 in sbt-chain
@@ -208,7 +208,7 @@
 [debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar(doc)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)
-[debug] :: resolution report :: resolve 127ms :: artifacts dl 25ms
+[debug] :: resolution report :: resolve 135ms :: artifacts dl 26ms
 [debug] 	report for progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0 compile produced in /Users/maurice/Documents/Scala-EPL/recfun/target/resolution-cache/reports/progfun-recfun-progfun-recfun$sources_javadoc_2.10-compile.xml
 [debug] 	report for progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0 runtime produced in /Users/maurice/Documents/Scala-EPL/recfun/target/resolution-cache/reports/progfun-recfun-progfun-recfun$sources_javadoc_2.10-runtime.xml
 [debug] 	report for progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0 test produced in /Users/maurice/Documents/Scala-EPL/recfun/target/resolution-cache/reports/progfun-recfun-progfun-recfun$sources_javadoc_2.10-test.xml
@@ -221,4 +221,4 @@
 [debug] 	report for progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0 sources produced in /Users/maurice/Documents/Scala-EPL/recfun/target/resolution-cache/reports/progfun-recfun-progfun-recfun$sources_javadoc_2.10-sources.xml
 [debug] 	report for progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0 docs produced in /Users/maurice/Documents/Scala-EPL/recfun/target/resolution-cache/reports/progfun-recfun-progfun-recfun$sources_javadoc_2.10-docs.xml
 [debug] 	report for progfun-recfun#progfun-recfun$sources_javadoc_2.10;1.0.0 pom produced in /Users/maurice/Documents/Scala-EPL/recfun/target/resolution-cache/reports/progfun-recfun-progfun-recfun$sources_javadoc_2.10-pom.xml
-[debug] 	resolve done (127ms resolve - 25ms download)
+[debug] 	resolve done (135ms resolve - 26ms download)

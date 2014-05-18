@@ -10,25 +10,12 @@ object wks {
   val set4c = set3.incl(c)
   val set4d = set3.incl(d)
   val set5 = set4c.incl(d)
-  println(set5.filter(t=>t.user > "c"))
+  println(set5.filter(t => t.user > "c"))
 
+  println(set4d union set4c)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  val trends = set5.descendingByRetweet
+  println(trends.head.user)
 
 
 
