@@ -63,7 +63,7 @@
       <file leaf-file-name="TweetSet.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69325155" vertical-offset="3141" max-vertical-offset="3630">
+            <state vertical-scroll-proportion="7.1165643" vertical-offset="0" max-vertical-offset="3630">
               <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
               <folding>
                 <element signature="e#17#32#0" expanded="true" />
@@ -707,7 +707,11 @@
       <created>1400418705733</created>
       <updated>1400418705733</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Files 18/5/2014 14:10">
+      <created>1400418744477</created>
+      <updated>1400418744477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -763,7 +767,8 @@
     <MESSAGE value="Raw Load" />
     <MESSAGE value="Files 14/5/2014 13:00" />
     <MESSAGE value="Files 18/5/2014 11:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files 18/5/2014 11:00" />
+    <MESSAGE value="Files 18/5/2014 14:10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files 18/5/2014 14:10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1071,7 +1076,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/objsets/TweetSet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69325155" vertical-offset="3141" max-vertical-offset="3630">
+        <state vertical-scroll-proportion="7.1165643" vertical-offset="0" max-vertical-offset="3630">
           <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
           <folding>
             <element signature="e#17#32#0" expanded="true" />

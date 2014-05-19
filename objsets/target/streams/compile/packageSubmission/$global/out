@@ -1,0 +1,11 @@
+[info] Packaging /Users/maurice/Documents/Scala-EPL/objsets/target/scala-2.10/progfun-objsets_2.10-1.0.0.jar ...
+[debug] Input file mappings:
+[debug] 	common/package.scala
+[debug] 	  /Users/maurice/Documents/Scala-EPL/objsets/src/main/scala/common/package.scala
+[debug] 	objsets/TweetData.scala
+[debug] 	  /Users/maurice/Documents/Scala-EPL/objsets/src/main/scala/objsets/TweetData.scala
+[debug] 	objsets/TweetReader.scala
+[debug] 	  /Users/maurice/Documents/Scala-EPL/objsets/src/main/scala/objsets/TweetReader.scala
+[debug] 	objsets/TweetSet.scala
+[debug] 	  /Users/maurice/Documents/Scala-EPL/objsets/src/main/scala/objsets/TweetSet.scala
+[info] Done packaging.
