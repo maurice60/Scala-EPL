@@ -5,27 +5,13 @@
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->default#default-aba5c0;0.0 [compile->default(compile)]
-[info] Resolving default#default-aba5c0;0.0 ...
-[debug] sbt-chain: Checking cache for: dependency: default#default-aba5c0;0.0 {compile=[default(compile)]}
-[debug] 	found default#default-aba5c0;0.0 in inter-project
-[debug] == resolving dependencies default#default-aba5c0;0.0->org.jetbrains#sbt-structure;2.3.2 [compile->default(compile)]
-[info] Resolving org.jetbrains#sbt-structure;2.3.2 ...
-[debug] sbt-chain: Checking cache for: dependency: org.jetbrains#sbt-structure;2.3.2 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.jetbrains#sbt-structure;2.3.2
-[debug] 	typesafe-ivy-releases: revision in cache: org.jetbrains#sbt-structure;2.3.2
-[debug] 	found org.jetbrains#sbt-structure;2.3.2 in sbt-chain
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->default#default-aba5c0;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#default-aba5c0;0.0->org.jetbrains#sbt-structure;2.3.2 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->default#default-aba5c0;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#default-aba5c0;0.0->org.jetbrains#sbt-structure;2.3.2 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
@@ -559,8 +545,6 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [compile-internal]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->default#default-aba5c0;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#default-aba5c0;0.0->org.jetbrains#sbt-structure;2.3.2 [compile->default(compile)]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
@@ -883,16 +867,12 @@
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->default#default-aba5c0;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#default-aba5c0;0.0->org.jetbrains#sbt-structure;2.3.2 [compile->default(compile)]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [test-internal]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->default#default-aba5c0;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#default-aba5c0;0.0->org.jetbrains#sbt-structure;2.3.2 [compile->default(compile)]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#default-5a17e1;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
@@ -1221,7 +1201,6 @@
 [debug] == resolving dependencies for default#default-5a17e1;0.1-SNAPSHOT [pom]
 [debug] 	resolved ivy file produced in /Users/maurice/Documents/Scala-EPL/patmat/project/project/target/resolution-cache/default/default-5a17e1/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.jetbrains#sbt-structure;2.3.2!sbt-structure.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.12.4!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.12.4!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.12.4!compiler-interface-bin.jar
@@ -1263,7 +1242,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar
-[debug] :: resolution report :: resolve 1699ms :: artifacts dl 68ms
+[debug] :: resolution report :: resolve 4511ms :: artifacts dl 139ms
 [debug] 	report for default#default-5a17e1;0.1-SNAPSHOT compile produced in /Users/maurice/Documents/Scala-EPL/patmat/project/project/target/resolution-cache/reports/default-default-5a17e1-compile.xml
 [debug] 	report for default#default-5a17e1;0.1-SNAPSHOT runtime produced in /Users/maurice/Documents/Scala-EPL/patmat/project/project/target/resolution-cache/reports/default-default-5a17e1-runtime.xml
 [debug] 	report for default#default-5a17e1;0.1-SNAPSHOT test produced in /Users/maurice/Documents/Scala-EPL/patmat/project/project/target/resolution-cache/reports/default-default-5a17e1-test.xml
@@ -1276,5 +1255,5 @@
 [debug] 	report for default#default-5a17e1;0.1-SNAPSHOT sources produced in /Users/maurice/Documents/Scala-EPL/patmat/project/project/target/resolution-cache/reports/default-default-5a17e1-sources.xml
 [debug] 	report for default#default-5a17e1;0.1-SNAPSHOT docs produced in /Users/maurice/Documents/Scala-EPL/patmat/project/project/target/resolution-cache/reports/default-default-5a17e1-docs.xml
 [debug] 	report for default#default-5a17e1;0.1-SNAPSHOT pom produced in /Users/maurice/Documents/Scala-EPL/patmat/project/project/target/resolution-cache/reports/default-default-5a17e1-pom.xml
-[debug] 	resolve done (1699ms resolve - 68ms download)
+[debug] 	resolve done (4511ms resolve - 139ms download)
 [info] Done updating.

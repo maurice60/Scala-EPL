@@ -2,143 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b1f73e-5bd6-49e9-885b-9db5191fa4f7" name="Default" comment="Patmat">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT___scala_compiler_bundle_2_10_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_code_gson_gson_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_netflix_rxjava_rxjava_core_0_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_netflix_rxjava_rxjava_scala_0_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_ning_async_http_client_1_7_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_squareup_retrofit_retrofit_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_actor_2_10_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_testkit_2_10_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_config_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_3_6_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__junit_junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__net_databinder_dispatch_dispatch_core_2_10_0_11_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_ast_2_10_3_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_core_2_10_3_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_native_2_10_3_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_mockito_mockito_all_1_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_async_2_10_0_9_0_M2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_actors_2_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_compiler_2_10_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_swing_2_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scalap_2_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_tools_testing_test_interface_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalacheck_scalacheck_2_10_1_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_10_1_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_simple_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/assignment-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/assignment.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/highlighting.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/submission-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/submission.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$1$$anon$1$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$2$$anon$2$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$3$$anon$3$$anonfun$6.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/.history" afterPath="$PROJECT_DIR$/../objsets/target/.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Cons.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Cons.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Empty.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Empty.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/GoogleVsApple$.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/GoogleVsApple$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/GoogleVsApple.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/GoogleVsApple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Main$$anonfun$1.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Main$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Main$.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Main$delayedInit$body.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Main$delayedInit$body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Nil$.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/Nil$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/NonEmpty.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/NonEmpty.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/TweetList$class.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/TweetList$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/TweetSet.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/TweetSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$1$$anon$1.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$1$$anon$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$2$$anon$2.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$2$$anon$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$3$$anon$3.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite$$anonfun$3$$anon$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite.class" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/test-classes/objsets/TweetSetSuite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/scala-2.9.2/sbt-0.12/cache/default-438315/compile/inc_compile" afterPath="$PROJECT_DIR$/../objsets/project/target/scala-2.9.2/sbt-0.12/cache/default-438315/compile/inc_compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/cache/assignment/compile/inc_compile" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/cache/assignment/compile/inc_compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/scala-2.9.2/sbt-0.12/cache/default-a7f369/global/update/output" afterPath="$PROJECT_DIR$/../objsets/project/project/target/scala-2.9.2/sbt-0.12/cache/default-a7f369/global/update/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/scala-2.9.2/sbt-0.12/cache/default-438315/global/update/output" afterPath="$PROJECT_DIR$/../objsets/project/target/scala-2.9.2/sbt-0.12/cache/default-438315/global/update/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-compile-internal.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-compile.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-docs.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-optional.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-plugin.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-pom.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-provided.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-runtime-internal.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-runtime.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-sources.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-test-internal.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-test.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/reports/default-default-438315-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-compile-internal.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-compile.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-docs.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-optional.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-plugin.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-pom.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-provided.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-runtime-internal.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-runtime.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-sources.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-test-internal.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-test.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/reports/default-default-a7f369-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/streams/$global/update/$global/out" afterPath="$PROJECT_DIR$/../objsets/project/project/target/streams/$global/update/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/streams/$global/update/$global/out" afterPath="$PROJECT_DIR$/../objsets/project/target/streams/$global/update/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/streams/$global/update-classifiers/$global/out" afterPath="$PROJECT_DIR$/../objsets/submission/target/streams/$global/update-classifiers/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/streams/$global/update-sbt-classifiers/$global/out" afterPath="$PROJECT_DIR$/../objsets/submission/target/streams/$global/update-sbt-classifiers/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/streams/$global/update-classifiers/$global/out" afterPath="$PROJECT_DIR$/../objsets/target/streams/$global/update-classifiers/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/streams/$global/update-sbt-classifiers/$global/out" afterPath="$PROJECT_DIR$/../objsets/target/streams/$global/update-sbt-classifiers/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/streams/compile/compile/$global/out" afterPath="$PROJECT_DIR$/../objsets/target/streams/compile/compile/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sbt_2.10-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sbt_2.10-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_2.10-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_2.10-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-compile.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-compile.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-docs.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-docs.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-optional.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-optional.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-plugin.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-plugin.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-pom.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-pom.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-provided.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-provided.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-runtime.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-runtime.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-sources.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-sources.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-test.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-test.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets$sources_javadoc_2.10-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/default/default-a7f369/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/default/default-a7f369/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/default/default-438315/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/default/default-438315/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sbt_2.10/1.0.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sbt_2.10/1.0.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sources_2.10/1.0.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sources_2.10/1.0.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sources_javadoc_2.10/1.0.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sources_javadoc_2.10/1.0.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sbt_2.10/1.0.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sbt_2.10/1.0.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sources_2.10/1.0.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sources_2.10/1.0.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sources_javadoc_2.10/1.0.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sources_javadoc_2.10/1.0.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/default/default-a7f369/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../objsets/project/project/target/resolution-cache/default/default-a7f369/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/default/default-438315/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../objsets/project/target/resolution-cache/default/default-438315/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sbt_2.10/1.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sbt_2.10/1.0.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sources_2.10/1.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sources_2.10/1.0.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sources_javadoc_2.10/1.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../objsets/submission/target/resolution-cache/progfun-objsets/progfun-objsets$sources_javadoc_2.10/1.0.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sbt_2.10/1.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sbt_2.10/1.0.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sources_2.10/1.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sources_2.10/1.0.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sources_javadoc_2.10/1.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../objsets/target/resolution-cache/progfun-objsets/progfun-objsets$sources_javadoc_2.10/1.0.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/wks.sc" afterPath="$PROJECT_DIR$/../objsets/target/scala-2.10/classes/objsets/wks.sc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../objsets/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../objsets/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" afterPath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="progfun-patmat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -164,8 +29,18 @@
       <file leaf-file-name="Huffman.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.060240965" vertical-offset="165" max-vertical-offset="3180">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state vertical-scroll-proportion="2.5246913" vertical-offset="1128" max-vertical-offset="3270">
+              <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HuffmanSuite.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,6 +55,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="306" />
@@ -223,6 +105,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progfun-patmat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patmat" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progfun-patmat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patmat" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patmat" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progfun-patmat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patmat" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -242,13 +174,67 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="72" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="74" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="77" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="837" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="72" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="74" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="77" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="837" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HuffmanSuite">
+    <configuration default="false" name="HuffmanSuite.chars of a larger tree" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="assignment" />
+      <setting name="path" value="patmat.HuffmanSuite" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="chars of a larger tree" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HuffmanSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="patmat" />
+      <option name="MAIN_CLASS_NAME" value="patmat.HuffmanSuite" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -262,12 +248,83 @@
       <setting name="consoleArgs" value="-usejavacp" />
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -297,31 +354,23 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -353,6 +402,131 @@
       <setting name="workingDirectory" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <module name="" />
       <setting name="path" value="" />
@@ -366,7 +540,16 @@
       <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.HuffmanSuite.chars of a larger tree" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HuffmanSuite" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HuffmanSuite" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.HuffmanSuite.chars of a larger tree" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -422,28 +605,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="306" y="22" width="1134" height="878" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25045872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25045872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32951653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -474,6 +658,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -483,10 +671,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.060240965" vertical-offset="165" max-vertical-offset="3180">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state vertical-scroll-proportion="2.5246913" vertical-offset="1128" max-vertical-offset="3270">
+          <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
           <folding />
         </state>
       </provider>
