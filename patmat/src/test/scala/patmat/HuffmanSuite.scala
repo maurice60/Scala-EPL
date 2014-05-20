@@ -30,6 +30,12 @@ class HuffmanSuite extends FunSuite {
     assert(string2Chars("hello, world") === List('h', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd'))
   }
 
+  test("char count") {
+    new TestTrees {
+      assert(times(List('a', 'a', 'c', 'b', 'a', 'b')).sorted === List(('a', 3), ('b',2), ('c',1)))
+    }
+  }
+
   test("makeOrderedLeafList for some frequency table") {
     assert(makeOrderedLeafList(List(('t', 2), ('e', 1), ('x', 3))) === List(Leaf('e',1), Leaf('t',2), Leaf('x',3)))
   }
@@ -37,6 +43,13 @@ class HuffmanSuite extends FunSuite {
   test("combine of some leaf list") {
     val leaflist = List(Leaf('e', 1), Leaf('t', 2), Leaf('x', 4))
     assert(combine(leaflist) === List(Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3), Leaf('x',4)))
+  }
+
+  test("Make a tree") {
+    val chars = List('x', 't', 'e', 'x', 't', 'x')
+    val ti = times(chars)
+    val ll = makeOrderedLeafList(ti)
+    assert(until(singleton, combine)(ll) === createCodeTree(chars))
   }
 
   test("decode and encode a very short text should be identity") {
