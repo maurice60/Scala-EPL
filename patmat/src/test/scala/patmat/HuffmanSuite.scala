@@ -45,16 +45,23 @@ class HuffmanSuite extends FunSuite {
     assert(combine(leaflist) === List(Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3), Leaf('x',4)))
   }
 
-  test("Make a tree") {
-    val chars = List('x', 't', 'e', 'x', 't', 'x')
-    val ti = times(chars)
-    val ll = makeOrderedLeafList(ti)
-    assert(until(singleton, combine)(ll) === createCodeTree(chars))
-  }
+//  test("Make a tree") {
+//    val chars = List('x', 't', 'e', 'x', 't', 'x')
+//    val ti = times(chars)
+//    val ll = makeOrderedLeafList(ti)
+//    assert(until(singleton, combine)(ll) === createCodeTree(chars))
+//  }
 
   test("decode and encode a very short text should be identity") {
     new TestTrees {
       assert(decode(t1, encode(t1)("ab".toList)) === "ab".toList)
     }
   }
+
+  test("quick encode text") {
+    new TestTrees {
+      assert(quickEncode(frenchCode)(decodedSecret) === secret)
+    }
+  }
+
 }

@@ -1,6 +1,7 @@
 package patmat
 
 import common._
+import scala.collection.JavaConverters._
 
 /**
  * Assignment 4: Huffman coding
@@ -101,14 +102,15 @@ object Huffman {
    * head of the list should have the smallest weight), where the weight
    * of a leaf is the frequency of the character.
    */
-  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
-    def insert(l1: List[(Char, Int)], l2: List[Leaf]): List[Leaf] = l1 match {
-      case List() => l2
-      case h :: t => insert(t, Leaf(h._1, h._2)::l2)
-    }
-    insert(freqs.sorted.reverse, Nil)
-  }
 
+  def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = freqs.sortWith((x, y) => x._2 < y._2).map(v => Leaf(v._1, v._2))
+//  {
+//    def insert(l1: List[(Char, Int)], l2: List[Leaf]): List[Leaf] = l1 match {
+//      case List() => l2
+//      case h :: t => insert(t, Leaf(h._1, h._2) :: l2)
+//    }
+//    insert(freqs.sortWith((x, y) => x._2 > y._2), Nil)
+//  }
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */
@@ -126,19 +128,12 @@ object Huffman {
    * If `trees` is a list of less than two elements, that list should be returned
    * unchanged.
    */
-  def combine(trees: List[CodeTree]): List[CodeTree] = {
-    def combH(toAdd:List[(CodeTree)], addIn:List[(CodeTree)], added:List[(CodeTree)]): List[(CodeTree)] = addIn match {
-      case List() => added:::toAdd
-      case h::t => if (weight(toAdd.head) < weight(h)) added:::toAdd:::addIn else combH(toAdd, t, h::added)
-    }
-    if (trees.length < 2) trees
-    else {
-      val t1 = trees.head
-      val t2 = trees.tail.head
-      combH(List(Fork(t1, t2, chars(t1):::chars(t2), weight(t1) + weight(t2))), trees.tail.tail, Nil)
-    }
-  }
 
+  def combine(trees: List[CodeTree]): List[CodeTree] = trees match {
+    case t1 :: t2 :: r_ => (Fork(t1, t2, chars(t1):::chars(t2), weight(t1) + weight(t2)) :: r_).sortBy(weight)
+    case _ => trees
+  }
+  
   /**
    * This function will be called in the following way:
    *
@@ -156,9 +151,9 @@ object Huffman {
    *    the example invocation. Also define the return type of the `until` function.
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
-  def until(singleton: List[CodeTree] => Boolean, combine: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): CodeTree = {
-      if (singleton(trees)) trees.head
-      else until(singleton, combine)(combine(trees))
+  def until(singleton: List[CodeTree] => Boolean, combine: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = {
+    if (singleton(trees)) trees
+    else until(singleton, combine)(combine(trees))
   }
 
   /**
@@ -167,7 +162,7 @@ object Huffman {
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-  def createCodeTree(chars: List[Char]): CodeTree = until(singleton, combine)(makeOrderedLeafList(times(chars)))
+  def createCodeTree(chars: List[Char]): CodeTree = until(singleton, combine)(makeOrderedLeafList(times(chars))).head
 
   // Part 3: Decoding
 
@@ -216,7 +211,22 @@ object Huffman {
    * This function encodes `text` using the code tree `tree`
    * into a sequence of bits.
    */
-  def encode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+  def encode(tree: CodeTree)(text: List[Char]): List[Bit] = {
+    def encodeH(textI: List[Char], acc: List[Bit]): List[Bit] = {
+      def letter(tree: CodeTree, chr: Char, path:List[Bit]): List[Bit] = tree match {
+        case Leaf(ch, w) => path
+        case Fork(l, r, ch, w) =>
+          if (chars(l) contains chr) letter(l, chr, path:::List(0))
+          else letter(r, chr, path:::List(1))
+      }
+      textI match {
+        case List() => acc
+        case h::t => encodeH(t, acc:::letter(tree, h, Nil))
+      }
+    }
+    encodeH(text, Nil)
+
+  }
 
 
   // Part 4b: Encoding using code table
@@ -227,7 +237,12 @@ object Huffman {
    * This function returns the bit sequence that represents the character `char` in
    * the code table `table`.
    */
-  def codeBits(table: CodeTable)(char: Char): List[Bit] = ???
+  def codeBits(table: CodeTable)(char: Char): List[Bit] = {
+    table.find(x => x._1 == char) match {
+      case Some((ch, lis)) => lis
+      case None => List()
+    }
+   }
 
   /**
    * Given a code tree, create a code table which contains, for every character in the
@@ -237,14 +252,26 @@ object Huffman {
    * a valid code tree that can be represented as a code table. Using the code tables of the
    * sub-trees, think of how to build the code table for the entire tree.
    */
-  def convert(tree: CodeTree): CodeTable = ???
+  def convert(tree: CodeTree): CodeTable = {
+    def trav(tree: CodeTree, path: List[Bit], acc: CodeTable): CodeTable = tree match {
+      case Leaf(ch, w) => mergeCodeTables(List((ch, path)), acc)
+      case Fork(l, r, ch, w) =>
+        trav(r, path ::: List(1), trav(l, path ::: List(0), acc))
+    }
+    trav(tree, Nil, Nil)
+  }
 
   /**
    * This function takes two code tables and merges them into one. Depending on how you
    * use it in the `convert` method above, this merge method might also do some transformations
    * on the two parameter code tables.
    */
-  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = ???
+  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = (a ::: b).sortWith(_._1 > _._1)
+//  {
+//    val ret:CodeTable = a ::: b
+////    ret.sortBy(_._1)
+//    ret
+//  }
 
   /**
    * This function encodes `text` according to the code tree `tree`.
@@ -252,5 +279,14 @@ object Huffman {
    * To speed up the encoding process, it first converts the code tree to a code table
    * and then uses it to perform the actual encoding.
    */
-  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = {
+    val ct = convert(tree)
+    text.flatMap(codeBits(ct)(_))
+  }
+//    def encode(todoS: List[Char], acc: List[Bit]): List[Bit] = todoS match {
+//      case List() => acc
+//      case h::t => encode(t, acc ::: codeBits(ct)(h))
+//    }
+//    encode(text, Nil)
+//  }
 }
