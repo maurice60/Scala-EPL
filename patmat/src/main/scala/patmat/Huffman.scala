@@ -79,13 +79,13 @@ object Huffman {
    *   }
    */
   def times(chars: List[Char]): List[(Char, Int)] = {
-    def toLists(chr: List[Char]): List[List[Char]] = chr match {
-      case Nil => Nil
-      case h :: t =>
+    def toLists(chr: List[Char], acc: List[(Char, Int)]): List[(Char, Int)] = chr match {
+      case Nil => acc
+      case h :: _ =>
         val (l1: List[Char], l2: List[Char]) = chr.partition(x => x == h)
-        l1 :: toLists(l2)
+        toLists(l2, acc ++ List((l1.head, l1.length)))
     }
-    toLists(chars).map(x => (x.head, x.length))
+    toLists(chars, Nil)
   }
 /*
   def times(chars: List[Char]): List[(Char, Int)] = {
