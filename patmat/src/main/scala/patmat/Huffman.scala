@@ -79,6 +79,16 @@ object Huffman {
    *   }
    */
   def times(chars: List[Char]): List[(Char, Int)] = {
+    def toLists(chr: List[Char]): List[List[Char]] = chr match {
+      case Nil => Nil
+      case h :: t =>
+        val (l1: List[Char], l2: List[Char]) = chr.partition(x => x == h)
+        l1 :: toLists(l2)
+    }
+    toLists(chars).map(x => (x.head, x.length))
+  }
+/*
+  def times(chars: List[Char]): List[(Char, Int)] = {
 
     def mapReduce(c: Char, lis: List[(Char, Int)]) = {
       def loop(inL: List[(Char, Int)], accL: List[(Char, Int)], fnd:Boolean): List[(Char, Int)] = inL match {
@@ -94,6 +104,7 @@ object Huffman {
     }
     timesH(chars, Nil)
   }
+*/
 
   /**
    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
@@ -102,7 +113,6 @@ object Huffman {
    * head of the list should have the smallest weight), where the weight
    * of a leaf is the frequency of the character.
    */
-
   def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = freqs.sortWith((x, y) => x._2 < y._2).map(v => Leaf(v._1, v._2))
 //  {
 //    def insert(l1: List[(Char, Int)], l2: List[Leaf]): List[Leaf] = l1 match {

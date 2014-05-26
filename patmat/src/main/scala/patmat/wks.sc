@@ -7,6 +7,7 @@ val un = until(singleton, combine)(ll)
 val enc = encode(createCodeTree(te))(te)
 println(enc.length)  //58
 
+
 val enc1 = quickEncode(createCodeTree(te))(te)
 decode(createCodeTree(te), enc)
 decode(createCodeTree(te), enc1).mkString
