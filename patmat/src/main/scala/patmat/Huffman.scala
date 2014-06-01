@@ -23,24 +23,21 @@ object Huffman {
   case class Fork(left: CodeTree, right: CodeTree, chars: List[Char], weight: Int) extends CodeTree
   case class Leaf(char: Char, weight: Int) extends CodeTree
 
-
-
   // Part 1: Basics
 
   def weight(tree: CodeTree): Int = tree match {
-    case Leaf(ch, w) => w
-    case Fork(l, r, ch, w) => w
+    case Leaf(_, w) => w
+    case Fork(_, _, _, w) => w
   } // tree match ...
 
   def chars(tree: CodeTree): List[Char] = tree match {
-    case Leaf(ch, w) => List(ch)
-    case Fork(l, r, ch, w) => ch
-  } // tree match ...
+    case Leaf(ch, _) => List(ch)
+    case Fork(_, _, ch, _) => ch
+  }
+  // tree match ...
 
   def makeCodeTree(left: CodeTree, right: CodeTree) =
-    Fork(left, right, chars(left) ::: chars(right), weight(left) + weight(right))
-
-
+    Fork(left, right, chars(left) ++ chars(right), weight(left) + weight(right))
 
   // Part 2: Generating Huffman trees
 
@@ -276,7 +273,7 @@ object Huffman {
    * use it in the `convert` method above, this merge method might also do some transformations
    * on the two parameter code tables.
    */
-  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = (a ::: b).sortWith(_._1 > _._1)
+  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = (a ++ b).sortWith(_._1 > _._1)
 //  {
 //    val ret:CodeTable = a ::: b
 ////    ret.sortBy(_._1)

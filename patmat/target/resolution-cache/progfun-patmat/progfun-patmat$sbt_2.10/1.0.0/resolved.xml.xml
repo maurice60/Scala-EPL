@@ -4,7 +4,7 @@
 		module="progfun-patmat$sbt_2.10"
 		revision="1.0.0"
 		status="integration"
-		publication="20140519161008"
+		publication="20140526163018"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
