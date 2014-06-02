@@ -4,7 +4,11 @@
 		module="progfun-patmat$sbt_2.10"
 		revision="1.0.0"
 		status="integration"
+<<<<<<< HEAD
 		publication="20140529195652"
+=======
+		publication="20140526163018"
+>>>>>>> FETCH_HEAD
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

@@ -4,7 +4,11 @@
 		module="progfun-patmat$sources_javadoc_2.10"
 		revision="1.0.0"
 		status="integration"
+<<<<<<< HEAD
 		publication="20140529195657"
+=======
+		publication="20140526163021"
+>>>>>>> FETCH_HEAD
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -90,7 +94,7 @@
 			<artifact name="netty" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="netty" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.3/">
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-reflect" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
