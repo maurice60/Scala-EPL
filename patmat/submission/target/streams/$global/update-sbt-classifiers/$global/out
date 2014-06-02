@@ -1,6 +1,6 @@
 [debug] Other repositories:
 [debug] Default repositories:
-[debug] 	Raw(ProjectResolver(inter-project, mapped: default#default-aba5c0;0.0))
+[debug] 	Raw(ProjectResolver(inter-project, mapped: default#default-0af89f;0.0))
 [debug] 	URLRepository(typesafe-ivy-releases,Patterns(ivyPatterns=List(http://repo.typesafe.com/typesafe/ivy-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(http://repo.typesafe.com/typesafe/ivy-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false))
 [debug] 	URLRepository(sbt-plugin-releases,Patterns(ivyPatterns=List(http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false))
 [debug] 	FileRepository(local,FileConfiguration(true,None),Patterns(ivyPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false))
@@ -1524,9 +1524,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar
-[debug] :: resolution report :: resolve 1215ms :: artifacts dl 36ms
+[debug] :: resolution report :: resolve 1785ms :: artifacts dl 38ms
 [debug] 	report for progfun-patmat#progfun-patmat$sbt_2.10;1.0.0 default produced in /Users/maurice/Documents/Scala-EPL/patmat/submission/target/resolution-cache/reports/progfun-patmat-progfun-patmat$sbt_2.10-default.xml
-[debug] 	resolve done (1215ms resolve - 36ms download)
+[debug] 	resolve done (1785ms resolve - 38ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun-patmat#progfun-patmat$sources_2.10;1.0.0
 [debug] 	confs: [default]
@@ -2002,6 +2002,6 @@
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.9.2;1.9.1!scalatest_2.9.2.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.1!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.9.2;6.0.4!scalaz-core_2.9.2.jar(src)
-[debug] :: resolution report :: resolve 318ms :: artifacts dl 39ms
+[debug] :: resolution report :: resolve 272ms :: artifacts dl 35ms
 [debug] 	report for progfun-patmat#progfun-patmat$sources_2.10;1.0.0 default produced in /Users/maurice/Documents/Scala-EPL/patmat/submission/target/resolution-cache/reports/progfun-patmat-progfun-patmat$sources_2.10-default.xml
-[debug] 	resolve done (318ms resolve - 39ms download)
+[debug] 	resolve done (272ms resolve - 35ms download)
