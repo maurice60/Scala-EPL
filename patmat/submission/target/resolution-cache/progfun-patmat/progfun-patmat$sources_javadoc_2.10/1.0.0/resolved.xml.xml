@@ -4,7 +4,11 @@
 		module="progfun-patmat$sources_javadoc_2.10"
 		revision="1.0.0"
 		status="integration"
-		publication="20140602125253"
+<<<<<<< HEAD
+		publication="20140529195702"
+=======
+		publication="20140526163024"
+>>>>>>> FETCH_HEAD
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
