@@ -33,7 +33,7 @@ object Anagrams {
    *  Note: the uppercase and lowercase version of the character are treated as the
    *  same character, and are represented as a lowercase character in the occurrence list.
    */
-  def wordOccurrences(w: Word): Occurrences = w.toList.groupBy(c => c.toLower).map{case (k,l) => (k, l.length)}.toList.sorted
+  def wordOccurrences(w: Word): Occurrences = w.toList.groupBy(c => c.toLower).map {case (k,l) => (k, l.length)}.toList.sorted
 
   /** Converts a sentence into its character occurrence list. */
   def sentenceOccurrences(s: Sentence): Occurrences = wordOccurrences(s.mkString)
@@ -96,7 +96,14 @@ object Anagrams {
    *  Note: the resulting value is an occurrence - meaning it is sorted
    *  and has no zero-entries.
    */
-  def subtract(x: Occurrences, y: Occurrences): Occurrences = ???
+  def subtract(x: Occurrences, y: Occurrences): Occurrences = {
+    for (el <- x) yield {
+      y filter (el._1 == _._1) match {
+        case Nil => el
+        case h :: _ => (el._1, el._2 - h._2)
+      }
+    }
+  } filter (_._2 > 0)
 
   /** Returns a list of all anagram sentences of the given sentence.
    *  
