@@ -145,6 +145,15 @@ object Anagrams {
    *
    *  Note: There is only one anagram of an empty sentence.
    */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = ???
+  def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
+    def anag(ol:Occurrences, acc:List[Word]):List[Word] = {
+      for (x <- combinations(ol)) yield {
+        val w = wordAnagrams(x.mkString)
+        if (w != Nil) anag(subtract(ol, x), acc ++ w)
+        else acc
+      }
+    }
+    anag(sentenceOccurrences(sentence), Nil)
+  }
 
 }
