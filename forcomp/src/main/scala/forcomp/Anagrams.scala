@@ -145,15 +145,18 @@ object Anagrams {
    *
    *  Note: There is only one anagram of an empty sentence.
    */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
-    def anag(ol:Occurrences, acc:List[Word]):List[Word] = {
-      for (x <- combinations(ol)) yield {
-        val w = wordAnagrams(x.mkString)
-        if (w != Nil) anag(subtract(ol, x), acc ++ w)
-        else acc
-      }
+  def sentenceAnagrams(s: Sentence): List[Sentence] = {
+    def anagH(occurrences: Occurrences): List[Sentence] = occurrences match {
+      case Nil => List(List())
+      case _::_ =>
+        for {
+          comb <- combinations(occurrences)
+          word <- dictionaryByOccurrences.getOrElse(comb, List())
+          sentence <- anagH(subtract(occurrences, wordOccurrences(word)))
+          if !comb.isEmpty
+        } yield word :: sentence
     }
-    anag(sentenceOccurrences(sentence), Nil)
+    anagH(sentenceOccurrences(s))
   }
 
 }
